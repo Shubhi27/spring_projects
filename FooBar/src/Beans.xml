@@ -11,10 +11,9 @@
   <bean id="foo" class="com.foobar.Foo" scope="prototype">
    <constructor-arg type="java.lang.String" value="Shubhi" ></constructor-arg >
   </bean>
-  <bean id="bar" class="com.foobar.Bar" >
+  <bean id="bar" class="com.foobar.Bar" autowire ="byName" >
   <constructor-arg type="int" value="25" ></constructor-arg >
    <constructor-arg type="java.lang.String" value="ABC" ></constructor-arg >
-   <property name="foo" ref ="foo"></property>
   </bean>
   <bean id = "cRefreshedEventHandler" class = "com.foobar.CRefreshedEvent"/>
 </beans>

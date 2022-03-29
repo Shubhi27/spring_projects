@@ -32,7 +32,7 @@ class SavingsAccount extends BankAccount {
 
     @Override
     public String toString() {
-        return super.toString() + "SavingsAccount [balance=" + balance + "]";
+        return super.toString() + "\n" +  "SavingsAccount [balance=" + balance + "]";
     }
 
 }
