@@ -1,0 +1,18 @@
+package com.fileReader;
+
+import java.io.*;
+import java.io.IOException;
+import java.util.Scanner;
+public class FileReaderDemo {
+	 public static void main(String[] args) throws IOException{
+    try(Scanner s = new Scanner(new FileReader("FileReaderSpring/src/com/fileReader/Data.txt"))){
+    	 MyBean obj = new MyBean();
+         obj.setFirstName(s.nextLine());
+         obj.setLastName(s.nextLine());	
+         System.out.println(obj);
+    }
+    catch (FileNotFoundException e) {
+        System.out.println("Error in file occured" + e.getMessage());
+    }
+	 }
+}

@@ -1,0 +1,7 @@
+package com.springDemo;
+
+
+public class HelloWorld {
+String message;
+
+}
