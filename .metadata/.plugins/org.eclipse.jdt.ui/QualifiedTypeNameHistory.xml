@@ -13,4 +13,18 @@
     <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
     <fullyQualifiedTypeName name="java.security.Timestamp"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationListener"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.RowMapper"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.worker.dao.WorkerDao"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="com.worker.mappers.WorkerMapper"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.worker.util.WorkerJDBCTemplate"/>
+    <fullyQualifiedTypeName name="com.worker.model.Worker"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.worker.helpers.WorkerHelpers"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>

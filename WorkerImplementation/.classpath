@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-aop-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-aspects-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-beans-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-context-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-context-indexer-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-context-support-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-core-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-expression-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-instrument-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-jcl-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-jdbc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-jms-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-messaging-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-orm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-oxm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-test-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-tx-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-web-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-webflux-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-webmvc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring Project/spring-dependencies/spring-websocket-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVOI/OneDrive/Desktop/white Board/mysql-connector-java-8.0.25.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
