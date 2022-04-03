@@ -7,7 +7,7 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.worker.model.Worker;
-import com.worker.services.WorkerJDBCTemplate;
+import com.worker.repository.WorkerRepository;
 import com.worker.helpers.WorkerHelpers;
 
 public class MainApp {
@@ -15,7 +15,7 @@ public class MainApp {
 	public static void main(String[] args) {
     AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
-		WorkerJDBCTemplate workerJDBCTemplate = (WorkerJDBCTemplate) context.getBean("workerJDBCTemplate");
+		WorkerRepository workerJDBCTemplate = (WorkerRepository) context.getBean("workerJDBCTemplate");
 		
 		System.out.println("************** Records Creation **************");
 		Worker worker1 = new Worker(10, "Shubhi", "s.giri@my_org.in");
